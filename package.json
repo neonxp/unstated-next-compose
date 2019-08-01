@@ -1,0 +1,29 @@
+{
+  "name": "unstated-next-compose",
+  "version": "0.0.1",
+  "description": "Simple compose provider for unstated-next",
+  "main": "compose.js",
+  "module": "compose.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neonxp/unstated-next-compose.git"
+  },
+  "keywords": [
+    "unstated",
+    "react",
+    "state-management",
+    "library"
+  ],
+  "author": "Alexander NeonXP Kiryukhin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neonxp/unstated-next-compose/issues"
+  },
+  "homepage": "https://github.com/neonxp/unstated-next-compose#readme",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
