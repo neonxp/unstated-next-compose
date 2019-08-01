@@ -1,12 +1,12 @@
 {
   "name": "unstated-next-compose",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple compose provider for unstated-next",
   "main": "dist/compose.js",
   "umd:main": "dist/compose.umd.js",
   "module": "dist/compose.mjs",
   "unpkg": "dist/compose.umd.js",
-  "source": "compose.js",
+  "source": "index.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
