@@ -1,8 +1,10 @@
-# unstated-next-compose
+# compose
 
-Simple provider compose for [unstated-next](https://github.com/jamiebuilds/unstated-next)
+Simple provider compose for new [React useContext Api](https://reactjs.org/docs/hooks-reference.html#usecontext), [unstated-next](https://github.com/jamiebuilds/unstated-next) or same.
 
 ## Usage
+
+unstated-next:
 
 ```
 import React, { useState } from 'react';
