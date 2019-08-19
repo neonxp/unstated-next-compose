@@ -10,7 +10,7 @@ unstated-next:
 import React, { useState } from 'react';
 import { createContainer } from 'unstated-next';
 
-import { Compose } from 'unstated-next-compose'; // <---
+import { Compose } from 'provider-compose'; // <---
 
 const useProvider1 = () => {
   const [a, setA] = useState(0);

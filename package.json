@@ -1,5 +1,5 @@
 {
-  "name": "compose",
+  "name": "provider-compose",
   "version": "0.0.5",
   "description": "Simple compose provider",
   "main": "dist/compose.js",
