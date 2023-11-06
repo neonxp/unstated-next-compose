@@ -1,6 +1,6 @@
 {
   "name": "provider-compose",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple compose provider",
   "main": "dist/compose.js",
   "umd:main": "dist/compose.umd.js",
@@ -25,7 +25,17 @@
   },
   "homepage": "https://github.com/neonxp/compose#readme",
   "peerDependencies": {
-    "react": "^16.8.6",
+    "react": "*",
     "unstated-next": "^1.1.0"
-  }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module"
 }
