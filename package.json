@@ -1,5 +1,5 @@
 {
-  "name": "provider-compose",
+  "name": "@neonxp/provider-compose",
   "version": "0.0.6",
   "description": "Simple compose provider",
   "main": "dist/compose.js",
